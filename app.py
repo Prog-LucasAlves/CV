@@ -6,8 +6,7 @@ with open("style.css") as f:
 
 #####################
 # Header
-image1 = Image.open('./whatsapp.png') 
-st.write(image1,'''
+st.write('''
 # Lucas Alves.
 ##### :email: *lucasalves_taz@hotmail.com*
 ##### :telephone_receiver: *(24) 9 92385509* 
@@ -62,7 +61,7 @@ def txt4(a, b, c):
 
 #####################
 st.markdown('''
-## Formação Acadêmica
+## :mortar_board: Formação Acadêmica
 ''')
 
 txt('**Ciência de Dados** - Faculdade: Cruzeiro do Sul','')
@@ -72,7 +71,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Cursos de Aperfeiçoamento
+## :memo: Cursos de Aperfeiçoamento
 ''')
 
 txt('**Microsoft Power BI Para Data Science, Versão 2.0**','')
@@ -100,14 +99,14 @@ st.image(image, width=300)
 
 #####################
 st.markdown('''
-## Habilidades
+## :star: Habilidades
 ''')
 txt3('Programming', '`Python`')
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
 
 #####################
 st.markdown('''
-## Mídias Sociais
+## :computer: Mídias Sociais
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/lucasalves-ast/')
 txt2('GitHub', 'https://github.com/Prog-LucasAlves/dados_financeiros_b3')
