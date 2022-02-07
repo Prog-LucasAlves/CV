@@ -61,17 +61,12 @@ def txt4(a, b, c):
 
 #####################
 st.markdown('''
-## Education
+## Formação Acadêmica
 ''')
 
-txt('** Texto 02','1')
+txt('**Ciência de Dados**','Cruzeiro do Sul')
 st.markdown('''
-- Texto 03
-''')
-
-txt('** Texto 04','1')
-st.markdown('''
-- Texto 05
+- Conclusão - 06/2022
 ''')
 
 #####################
@@ -83,39 +78,6 @@ txt('** Texto 06','1')
 st.markdown('''
 - Texto 07
 ''')
-
-txt('** Texto 08','1')
-txt('** Texto 09','1')
-txt('** Texto 10','1')
-st.markdown('''
-- Texto 11
-''')
-
-txt('** Texto 12','1')
-st.markdown('''
-- Texto 13
-''')
-
-txt('** Texto 14','1')
-st.markdown('''
-- Texto 15
-''')
-
-txt('** Texto 16','1')
-st.markdown('''
-- Texto 17
-''')
-
-txt('**Texto 18','1')
-st.markdown('''
-- Texto 19
-''')
-
-#####################
-st.markdown('''
-## Bioinformatics Tools
-''')
-txt4('Texto 20','1','1')
 
 #####################
 st.markdown('''
