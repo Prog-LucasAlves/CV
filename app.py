@@ -8,14 +8,14 @@ with open("style.css") as f:
 # Header 
 st.write('''
 # Lucas Alves.
-##### :telephone_receiver: *lucasalves_taz@hotmail.com*
-##### *(24) 9 92385509* 
+##### :email: *lucasalves_taz@hotmail.com*
+##### :telephone_receiver: *(24) 9 92385509* 
 ''')
 
 image = Image.open('./cv.jpg')
 st.image(image, width=150)
 
-st.markdown('## Resumo', unsafe_allow_html=True)
+st.markdown('## :clipboard: Resumo', unsafe_allow_html=True)
 st.info('''
 - Estudante de Ciência de dados & Fan de Python/SQL.
 - Sempre na busca de aprender algo novo.
