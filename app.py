@@ -8,6 +8,5 @@ st.write('''
 # Lucas Alves - Estudante de Ciência de dados & Fan de Python.
 ##### *Resume* 
 ''')
-
 image = Image.open('./cv.jpg')
 st.image(image, width=150)
