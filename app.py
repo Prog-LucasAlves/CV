@@ -7,7 +7,7 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# Lucas Alves, Ph.D.
+# Lucas Alves, .
 ##### *Resume* 
 ''')
 
@@ -109,29 +109,29 @@ st.markdown('''
 - Texto 07
 ''')
 
-txt('** Texto 08')
-txt('** Texto 09')
-txt('** Texto 10')
+txt('** Texto 08','1')
+txt('** Texto 09','1')
+txt('** Texto 10','1')
 st.markdown('''
 - Texto 11
 ''')
 
-txt('** Texto 12')
+txt('** Texto 12','1')
 st.markdown('''
 - Texto 13
 ''')
 
-txt('** Texto 14')
+txt('** Texto 14','1')
 st.markdown('''
 - Texto 15
 ''')
 
-txt('** Texto 16')
+txt('** Texto 16','1')
 st.markdown('''
 - Texto 17
 ''')
 
-txt('**Texto 18')
+txt('**Texto 18','1')
 st.markdown('''
 - Texto 19
 ''')
@@ -140,7 +140,7 @@ st.markdown('''
 st.markdown('''
 ## Bioinformatics Tools
 ''')
-txt4('Texto 20')
+txt4('Texto 20','1')
 
 
 #####################
