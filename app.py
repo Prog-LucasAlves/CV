@@ -5,8 +5,9 @@ with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
 #####################
-# Header 
-st.write('''
+# Header
+image1 = Image.open('./whatsapp.png') 
+st.write(image1,'''
 # Lucas Alves.
 ##### :email: *lucasalves_taz@hotmail.com*
 ##### :telephone_receiver: *(24) 9 92385509* 
