@@ -7,7 +7,7 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# Lucas Alves, .
+# Lucas Alves, Estudante de Ciência de Dados & Fan de Python.
 ##### *Resume* 
 ''')
 
