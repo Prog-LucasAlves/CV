@@ -64,20 +64,22 @@ st.markdown('''
 ## Formação Acadêmica
 ''')
 
-txt('**Ciência de Dados**','Cruzeiro do Sul')
+txt('**Ciência de Dados**','Faculade: Cruzeiro do Sul')
 st.markdown('''
 - Conclusão - 06/2022
 ''')
 
 #####################
 st.markdown('''
-## Texto 05
+## Cursos de Aperfeiçoamento
 ''')
 
 txt('** Texto 06','1')
 st.markdown('''
 - Texto 07
 ''')
+image = Image.open('./certificate-microsoft-power-bi-para-data-science-versao.jpg')
+st.image(image, width=150)
 
 #####################
 st.markdown('''
