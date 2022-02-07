@@ -7,7 +7,7 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# Lucas Alves, Estudante de Ciência de Dados & Fan de Python.
+# Lucas Alves.
 ##### *Resume* 
 ''')
 
@@ -16,7 +16,8 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Texto 01
+- Estudante de Ciência de dados & Fan de Python/SQL.
+- Sempre na busca de aprender algo.
 ''')
 
 #####################
@@ -24,9 +25,9 @@ st.info('''
 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
-
 #####################
 # Custom function for printing text
+
 def txt(a, b):
   col1, col2 = st.columns([4,1])
   with col1:
@@ -113,18 +114,17 @@ st.markdown('''
 st.markdown('''
 ## Bioinformatics Tools
 ''')
-txt4('Texto 20','1')
-
+txt4('Texto 20','1','1')
 
 #####################
 st.markdown('''
 ## Skills
 ''')
-txt3('Programming', '`Python`, `R`, `Linux`')
-
+txt3('`Python`, `SQL`, `Linux`')
 
 #####################
 st.markdown('''
 ## Social Media
 ''')
-txt2('LinkedIn', '')
+txt2('LinkedIn', 'https://www.linkedin.com/in/lucasalves-ast/')
+txt2('GitHub', 'https://github.com/Prog-LucasAlves/dados_financeiros_b3')
