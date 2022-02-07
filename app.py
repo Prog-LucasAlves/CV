@@ -8,16 +8,17 @@ with open("style.css") as f:
 # Header 
 st.write('''
 # Lucas Alves.
-##### *Resume* 
+##### *lucasalves_taz@hotmail*
+##### *(24) 9 92385509* 
 ''')
 
 image = Image.open('./cv.jpg')
 st.image(image, width=150)
 
-st.markdown('## Summary', unsafe_allow_html=True)
+st.markdown('## Resumo', unsafe_allow_html=True)
 st.info('''
 - Estudante de Ciência de dados & Fan de Python/SQL.
-- Sempre na busca de aprender algo.
+- Sempre na busca de aprender algo novo.
 ''')
 
 #####################
@@ -118,13 +119,14 @@ txt4('Texto 20','1','1')
 
 #####################
 st.markdown('''
-## Skills
+## Habilidades
 ''')
-txt3('`Python`, `SQL`, `Linux`')
+txt3('Programming', '`Python`')
+txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
 
 #####################
 st.markdown('''
-## Social Media
+## Mídias Sociais
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/lucasalves-ast/')
 txt2('GitHub', 'https://github.com/Prog-LucasAlves/dados_financeiros_b3')
