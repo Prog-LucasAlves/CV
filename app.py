@@ -8,12 +8,12 @@ with open("style.css") as f:
 # Header 
 st.write('''
 # Lucas Alves.
-##### *lucasalves_taz@hotmail*
+##### *lucasalves_taz@hotmail.com*
 ##### *(24) 9 92385509* 
 ''')
 
 image = Image.open('./cv.jpg')
-st.image(image, width=150)
+st.image(image, width=300)
 
 st.markdown('## Resumo', unsafe_allow_html=True)
 st.info('''
@@ -64,7 +64,7 @@ st.markdown('''
 ## Formação Acadêmica
 ''')
 
-txt('**Ciência de Dados**','Faculade: Cruzeiro do Sul')
+txt('**Ciência de Dados** - Faculade: Cruzeiro do Sul','')
 st.markdown('''
 - Conclusão - 06/2022
 ''')
@@ -74,12 +74,12 @@ st.markdown('''
 ## Cursos de Aperfeiçoamento
 ''')
 
-txt('** Texto 06','1')
+txt('**Microsoft Power BI Para Data Science, Versão 2.0**','')
 st.markdown('''
-- Texto 07
+- DATA SCIENCE ACADEMY
 ''')
 image = Image.open('./certificate-microsoft-power-bi-para-data-science-versao.jpg')
-st.image(image, width=150)
+st.image(image, width=300)
 
 #####################
 st.markdown('''
