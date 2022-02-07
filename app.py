@@ -13,7 +13,7 @@ st.write('''
 ''')
 
 image = Image.open('./cv.jpg')
-st.image(image, width=300)
+st.image(image, width=150)
 
 st.markdown('## Resumo', unsafe_allow_html=True)
 st.info('''
@@ -79,6 +79,22 @@ st.markdown('''
 - DATA SCIENCE ACADEMY
 ''')
 image = Image.open('./certificate-microsoft-power-bi-para-data-science-versao.jpg')
+st.image(image, width=300)
+
+txt('**Introdução a Engenharia de Dados**','')
+st.markdown('''
+- DIGITAL INNOVATION ON
+''')
+image = Image.open('./Digital_One_Introdução_a_Engenharia_de_Dados.jpg')
+st.image(image, width=300)
+
+txt('**BOOTCAMP - Engenharia de Dados**','')
+st.markdown('''
+- HOW BOOTCAMPS
+''')
+image = Image.open('./691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-0.jpg')
+st.image(image, width=300)
+image = Image.open('./691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-1.jpg')
 st.image(image, width=300)
 
 #####################
