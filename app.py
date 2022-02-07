@@ -9,5 +9,5 @@ st.write('''
 ##### *Resume* 
 ''')
 
-image = Image.open('cv.png')
+image = Image.open('./cv.jpg')
 st.image(image, width=150)
