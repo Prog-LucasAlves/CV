@@ -103,6 +103,10 @@ st.markdown('''
 ''')
 txt3('Programming', '`Python`')
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
+txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`')
+txt3('Machine Learning', '`scikit-learn`')
+txt3('Web development', '`Flask`')
+txt3('Model deployment', '`streamlit`, `Heroku`')
 
 #####################
 st.markdown('''
