@@ -8,7 +8,7 @@ with open("style.css") as f:
 # Header 
 st.write('''
 # Lucas Alves.
-##### *lucasalves_taz@hotmail.com*
+##### :telephone_receiver: *lucasalves_taz@hotmail.com*
 ##### *(24) 9 92385509* 
 ''')
 
@@ -64,7 +64,7 @@ st.markdown('''
 ## Formação Acadêmica
 ''')
 
-txt('**Ciência de Dados** - Faculade: Cruzeiro do Sul','')
+txt('**Ciência de Dados** - Faculdade: Cruzeiro do Sul','')
 st.markdown('''
 - Conclusão - 06/2022
 ''')
