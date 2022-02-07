@@ -89,12 +89,12 @@ st.markdown('''
 ## Education
 ''')
 
-txt('** Texto 02')
+txt('** Texto 02','1')
 st.markdown('''
 - Texto 03
 ''')
 
-txt('** Texto 04')
+txt('** Texto 04','1')
 st.markdown('''
 - Texto 05
 ''')
@@ -104,7 +104,7 @@ st.markdown('''
 ## Texto 05
 ''')
 
-txt('** Texto 06')
+txt('** Texto 06','1')
 st.markdown('''
 - Texto 07
 ''')
