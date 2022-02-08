@@ -12,7 +12,7 @@ st.write('''
 ##### :telephone_receiver: *(24) 9 92385509* 
 ''')
 
-image = Image.open('./cv.jpg')
+image = Image.open('./image/cv.jpg')
 st.image(image, width=150)
 
 st.markdown('## :clipboard: Resumo', unsafe_allow_html=True)
@@ -78,23 +78,23 @@ txt('**Microsoft Power BI Para Data Science, Versão 2.0**','')
 st.markdown('''
 - DATA SCIENCE ACADEMY
 ''')
-image = Image.open('./certificate-microsoft-power-bi-para-data-science-versao.jpg')
+image = Image.open('./image/certificate-microsoft-power-bi-para-data-science-versao.jpg')
 st.image(image, width=300)
 
 txt('**Introdução a Engenharia de Dados**','')
 st.markdown('''
 - DIGITAL INNOVATION ON
 ''')
-image = Image.open('./Digital_One_Introdução_a_Engenharia_de_Dados.jpg')
+image = Image.open('./image/Digital_One_Introdução_a_Engenharia_de_Dados.jpg')
 st.image(image, width=300)
 
 txt('**BOOTCAMP - Engenharia de Dados**','')
 st.markdown('''
 - HOW BOOTCAMPS
 ''')
-image = Image.open('./691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-0.jpg')
+image = Image.open('./image/691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-0.jpg')
 st.image(image, width=300)
-image = Image.open('./691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-1.jpg')
+image = Image.open('./image/691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-1.jpg')
 st.image(image, width=300)
 
 #####################
@@ -102,7 +102,7 @@ st.markdown('''
 ## :star: Habilidades
 ''')
 txt3('Programming', '`Python`')
-txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
+txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`, `Excel`')
 txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`')
 txt3('Machine Learning', '`scikit-learn`')
 txt3('Web development', '`Flask`')
@@ -114,3 +114,4 @@ st.markdown('''
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/lucasalves-ast/')
 txt2('GitHub', 'https://github.com/Prog-LucasAlves/dados_financeiros_b3')
+txt2('Medium', 'https://medium.com/@alveslucastaz')
