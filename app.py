@@ -12,7 +12,7 @@ st.write('''
 ##### :telephone_receiver: *(24) 9 92385509* 
 ''')
 
-image = Image.open('./image/cv.jpg')
+image = Image.open('./image/cv-02.png')
 st.image(image, width=150)
 
 st.markdown('## :clipboard: Resumo', unsafe_allow_html=True)
