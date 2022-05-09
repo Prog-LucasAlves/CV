@@ -76,7 +76,7 @@ st.markdown('''
 
 txt('**Microsoft Power BI Para Data Science, Versão 2.0**','')
 st.markdown('''
-- DATA SCIENCE ACADEMY
+- DSA - DATA SCIENCE ACADEMY
 ''')
 image = Image.open('./image/certificate-microsoft-power-bi-para-data-science-versao.jpg')
 st.image(image, width=300)
@@ -95,6 +95,12 @@ st.markdown('''
 image = Image.open('./image/691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-0.jpg')
 st.image(image, width=300)
 image = Image.open('./image/691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-1.jpg')
+st.image(image, width=300)
+
+txt('**Python Fundamentos para Análise de Dados 3.0**')
+st.markdown('''
+- DSA - DATA SCIENCE ACADEMY ''')
+image = Image.open('./image/Python_Fundamentos.jpg')
 st.image(image, width=300)
 
 #####################
