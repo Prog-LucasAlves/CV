@@ -97,7 +97,7 @@ st.image(image, width=300)
 image = Image.open('./image/691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-1.jpg')
 st.image(image, width=300)
 
-txt('**Python Fundamentos para Análise de Dados 3.0**')
+txt('**Python Fundamentos para Análise de Dados 3.0**','')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY ''')
 image = Image.open('./image/Python_Fundamentos.jpg')
