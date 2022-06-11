@@ -81,28 +81,6 @@ st.markdown('''
 image = Image.open('./image/certificate-microsoft-power-bi-para-data-science-versao.jpg')
 st.image(image, width=300)
 
-txt('**Introdução a Engenharia de Dados**','')
-st.markdown('''
-- DIGITAL INNOVATION ON
-''')
-image = Image.open('./image/Digital_One_Introdução_a_Engenharia_de_Dados.jpg')
-st.image(image, width=300)
-
-txt('**BOOTCAMP - Engenharia de Dados**','')
-st.markdown('''
-- HOW BOOTCAMPS
-''')
-image = Image.open('./image/691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-0.jpg')
-st.image(image, width=300)
-image = Image.open('./image/691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-1.jpg')
-st.image(image, width=300)
-
-txt('**Python Fundamentos para Análise de Dados 3.0**','')
-st.markdown('''
-- DSA - DATA SCIENCE ACADEMY ''')
-image = Image.open('./image/Python_Fundamentos.jpg')
-st.image(image, width=300)
-
 #####################
 st.markdown('''
 ## :star: Habilidades
