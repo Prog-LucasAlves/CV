@@ -74,13 +74,6 @@ st.markdown('''
 ## :memo: Cursos de Aperfeiçoamento
 ''')
 
-txt('**SQL para Data Science**','')
-st.markdown('''
-- DSA - DATA SCIENCE ACADEMY
-''')
-image = Image.open('./image/certificate-sql-para-data-science-6167bb99e32fc33067066055_page-0001.jpg')
-st.image(image, width=300)
-
 txt('**Microsoft Power BI Para Data Science, Versão 2.0**','')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
