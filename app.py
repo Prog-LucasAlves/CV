@@ -9,10 +9,10 @@ with open("style.css") as f:
 st.write('''
 # Lucas Alves.
 ##### :email: *lucasalves_taz@hotmail.com*
-##### :telephone_receiver: *(24) 9 92385509* 
+##### :telephone_receiver: *(24) 9 92385509*
 ''')
 
-image = Image.open('./image/cv-02.png')
+image = Image.open('./image/cv.png')
 st.image(image, width=150)
 
 st.markdown('## :clipboard: Resumo', unsafe_allow_html=True)
@@ -29,29 +29,33 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 #####################
 # Custom function for printing text
 
+
 def txt(a, b):
-    col1, col2 = st.columns([4,1])
+    col1, col2 = st.columns([4, 1])
     with col1:
         st.markdown(a)
     with col2:
         st.markdown(b)
 
+
 def txt2(a, b):
-    col1, col2 = st.columns([1,4])
+    col1, col2 = st.columns([1, 4])
     with col1:
         st.markdown(f'`{a}`')
     with col2:
         st.markdown(b)
 
+
 def txt3(a, b):
-    col1, col2 = st.columns([1,2])
+    col1, col2 = st.columns([1, 2])
     with col1:
         st.markdown(a)
     with col2:
         st.markdown(b)
-  
+
+
 def txt4(a, b, c):
-    col1, col2, col3 = st.columns([1.5,2,2])
+    col1, col2, col3 = st.columns([1.5, 2, 2])
     with col1:
         st.markdown(f'`{a}`')
     with col2:
@@ -60,11 +64,13 @@ def txt4(a, b, c):
         st.markdown(c)
 
 #####################
+
+
 st.markdown('''
 ## :mortar_board: Formação Acadêmica
 ''')
 
-txt('**Ciência de Dados** - Faculdade: Cruzeiro do Sul','')
+txt('**Ciência de Dados** - Faculdade: Cruzeiro do Sul', '')
 st.markdown('''
 - Conclusão - 06/2022
 ''')
@@ -74,40 +80,47 @@ st.markdown('''
 ## :memo: Cursos de Aperfeiçoamento
 ''')
 
-txt('**SQL para Data SCIENCE**','')
+txt('**SQL para Data SCIENCE**', '')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
 ''')
-image = Image.open('./image/certificate-sql-para-data-science-6167bb99e32fc33067066055_page-0001.jpg')
+image = Image.open('./image/DSA_Certificado_SQL_para_analise_de_Dados.jpg')
 st.image(image, width=300)
 
-txt('**Microsoft Power BI Para Data Science, Versão 2.0**','')
+txt('**Python para Análise de Dados**', '')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
 ''')
-image = Image.open('./image/certificate-microsoft-power-bi-para-data-science-versao.jpg')
+image = Image.open('./image/DSA_Certificado_Python_para_analise _de_Dados.jpg')
 st.image(image, width=300)
 
-txt('**Python Fundamentos para Análise de Dados 3.0**','')
+txt('**Microsoft Power BI Para Data Science, Versão 2.0**', '')
+st.markdown('''
+- DSA - DATA SCIENCE ACADEMY
+''')
+image = Image.open('./image/Power_BI_Fundamentos.jpg')
+st.image(image, width=300)
+
+txt('**Python Fundamentos para Análise de Dados 3.0**', '')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY ''')
 image = Image.open('./image/Python_Fundamentos.jpg')
 st.image(image, width=300)
 
-txt('**Introdução a Engenharia de Dados**','')
+txt('**Introdução a Engenharia de Dados**', '')
 st.markdown('''
 - DIGITAL INNOVATION ON
 ''')
 image = Image.open('./image/Digital_One_Introdução_a_Engenharia_de_Dados.jpg')
 st.image(image, width=300)
 
-txt('**BOOTCAMP - Engenharia de Dados**','')
+txt('**BOOTCAMP - Engenharia de Dados**', '')
 st.markdown('''
 - HOW BOOTCAMPS
 ''')
-image = Image.open('./image/691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-0.jpg')
+image = Image.open('./image/How_Eng_Dados_0.jpg')
 st.image(image, width=300)
-image = Image.open('./image/691a1c87115d4300eaa231d112e125f6oNMEVkFO1fYmU701-1.jpg')
+image = Image.open('./image/How_Eng_Dados_1.jpg')
 st.image(image, width=300)
 
 #####################
