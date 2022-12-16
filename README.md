@@ -1,3 +1,3 @@
-# Site Heroku:
+# Site Streamlit
 
-- https://cv-lucas.herokuapp.com/ 
+- ![Streamlit](https://cvlucas.streamlit.app/)
