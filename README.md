@@ -1,3 +1,3 @@
 # Site Streamlit
 
-- ![Streamlit](https://cvlucas.streamlit.app/)
+- [Streamlit](https://cvlucas.streamlit.app/)
