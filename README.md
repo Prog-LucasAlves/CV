@@ -1,3 +1,3 @@
-# Site Streamlit
+# App(Streamlit)
 
-- [Streamlit](https://cvlucas.streamlit.app/)
+- [App](https://cvlucas.streamlit.app/)
