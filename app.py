@@ -125,6 +125,42 @@ st.image(image, width=300)
 image = Image.open('./image/How_Eng_Dados_1.jpg')
 st.image(image, width=300)
 
+txt('**Python - Básico**', '')
+st.markdown('''
+- SEMANTIX ACADEMY
+''')
+image = Image.open('./image/Python – Básico-Lucas Alves.jpg')
+st.image(image, width=300)
+
+txt('**Estatística Descritiva**', '')
+st.markdown('''
+- SEMANTIX ACADEMY
+''')
+image = Image.open('./image/Estatística Descritiva-Lucas Alves.jpg')
+st.image(image, width=300)
+
+txt('**Leitura e Excrita de Dados**', '')
+st.markdown('''
+- SEMANTIX ACADEMY
+''')
+image = Image.open('./image/Leitura e Escrita de Dados-Lucas Alves.jpg')
+st.image(image, width=300)
+
+txt('**Pyspark - Básico**', '')
+st.markdown('''
+- SEMANTIX ACADEMY
+''')
+image = Image.open('./image/Pyspark - Básico-Lucas Alves.jpg')
+st.image(image, width=300)
+
+txt('**Machine Learning - Básico**', '')
+st.markdown('''
+- SEMANTIX ACADEMY
+''')
+image = Image.open('./image/Machine Learning - Básico-Lucas Alves.jpg')
+st.image(image, width=300)
+
+
 #####################
 st.markdown('''
 ## :star: Habilidades
