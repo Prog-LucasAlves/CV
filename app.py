@@ -87,7 +87,7 @@ st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
 ''')
 image = Image.open('./image/Certificado FADA - Lucas Alves_page-0001.jpg')
-st.image(image, width=300)
+st.image(image, width=500)
 
 txt('**SQL para Data SCIENCE**', '')
 st.markdown('''
@@ -196,4 +196,4 @@ txt2('Medium', 'https://medium.com/@alveslucastaz')
 
 #####################
 image = Image.open('./image/Badge - FADA - Formação Analista de Dados - Lucas Alves.png')
-st.image(image, width=300)
+st.image(image, width=150)
