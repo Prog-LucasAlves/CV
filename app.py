@@ -82,6 +82,13 @@ st.markdown('''
 ## :memo: Cursos de Aperfeiçoamento
 ''')
 
+txt('**Formação Analista de Dados**', '')
+st.markdown('''
+- DSA - DATA SCIENCE ACADEMY
+''')
+image = Image.open('./image/Certificado FADA - Lucas Alves_page-0001.jpg')
+st.image(image, width=300)
+
 txt('**SQL para Data SCIENCE**', '')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
@@ -186,3 +193,7 @@ st.markdown('''
 txt2('LinkedIn', 'https://www.linkedin.com/in/lucasalves-ast/')
 txt2('GitHub', 'https://github.com/Prog-LucasAlves/dados_financeiros_b3')
 txt2('Medium', 'https://medium.com/@alveslucastaz')
+
+#####################
+image = Image.open('./image/Badge - FADA - Formação Analista de Dados - Lucas Alves.png')
+st.image(image, width=300)
