@@ -96,6 +96,13 @@ st.markdown('''
 image = Image.open('./image/DSA_Certificado_Python_para_analise _de_Dados.jpg')
 st.image(image, width=300)
 
+txt('**Análise de Dados com Microsoft Power BI e Clínica de BI**', '')
+st.markdown('''
+- DSA - DATA SCIENCE ACADEMY
+''')
+image = Image.open('./image/DSA_Certificado_Power_BI_para_analise_de_Dados.jpg')
+st.image(image, width=300)
+
 txt('**Microsoft Power BI Para Data Science, Versão 2.0**', '')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
