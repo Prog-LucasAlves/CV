@@ -75,7 +75,7 @@ st.markdown('''
 - Conclusão - 06/2022
 ''')
 image = Image.open('./image/Diploma_rotated_page-0001.jpg')
-st.image(image, width=300)
+st.image(image, width=500)
 
 #####################
 st.markdown('''
