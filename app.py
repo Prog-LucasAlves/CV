@@ -75,7 +75,7 @@ st.markdown('''
 - Conclusão - 06/2022
 ''')
 image = Image.open('./image/Diploma_rotated_page-0001.jpg')
-st.image(image, width=500)
+st.image(image, width=400)
 
 #####################
 st.markdown('''
@@ -87,57 +87,57 @@ st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
 ''')
 image = Image.open('./image/Certificado FADA - Lucas Alves_page-0001.jpg')
-st.image(image, width=500)
+st.image(image, width=400)
 
 txt('**SQL para Data SCIENCE**', '')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
 ''')
 image = Image.open('./image/DSA_Certificado_SQL_para_analise_de_Dados.jpg')
-st.image(image, width=300)
+st.image(image, width=400)
 
 txt('**Python para Análise de Dados**', '')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
 ''')
 image = Image.open('./image/DSA_Certificado_Python_para_analise _de_Dados.jpg')
-st.image(image, width=300)
+st.image(image, width=400)
 
 txt('**Análise de Dados com Microsoft Power BI e Clínica de BI**', '')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
 ''')
 image = Image.open('./image/DSA_Certificado_Power_BI_para_analise_de_Dados.jpg')
-st.image(image, width=300)
+st.image(image, width=400)
 
 txt('**Microsoft Power BI Para Data Science, Versão 2.0**', '')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY
 ''')
 image = Image.open('./image/Power_BI_Fundamentos.jpg')
-st.image(image, width=300)
+st.image(image, width=400)
 
 txt('**Python Fundamentos para Análise de Dados 3.0**', '')
 st.markdown('''
 - DSA - DATA SCIENCE ACADEMY ''')
 image = Image.open('./image/Python_Fundamentos.jpg')
-st.image(image, width=300)
+st.image(image, width=400)
 
 txt('**Introdução a Engenharia de Dados**', '')
 st.markdown('''
 - DIGITAL INNOVATION ON
 ''')
 image = Image.open('./image/Digital_One_Introdução_a_Engenharia_de_Dados.jpg')
-st.image(image, width=300)
+st.image(image, width=400)
 
 txt('**BOOTCAMP - Engenharia de Dados**', '')
 st.markdown('''
 - HOW BOOTCAMPS
 ''')
 image = Image.open('./image/How_Eng_Dados_0.jpg')
-st.image(image, width=300)
+st.image(image, width=400)
 image = Image.open('./image/How_Eng_Dados_1.jpg')
-st.image(image, width=300)
+st.image(image, width=400)
 
 txt('**Python - Básico**', '')
 st.markdown('''
